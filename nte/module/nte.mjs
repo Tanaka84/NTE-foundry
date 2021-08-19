@@ -84,13 +84,22 @@ Hooks.on("getSceneControlButtons", (controls) => {
     },
     {
       name: "Draw Bag",
-      title: "Draw Token",
+      title: "Draw Bag",
       icon: "fas fa-hand-paper",
       buttons: true,
       onClick: () => {
         drawToken();
       },
     },
+    
+      name: "Draw Secret",
+      title: "Draw Secret",
+      icon: "fas fa-hand-rock",
+      buttons: true,
+      onClick: () => {
+        drawToken(true);
+      },
+      
     {
       name: "Empty Bag",
       title: "Empty Bag",
