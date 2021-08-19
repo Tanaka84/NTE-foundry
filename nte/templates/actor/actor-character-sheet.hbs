@@ -1,0 +1,320 @@
+<form class="{{cssClass}}  {{data.type}} flexcol" autocomplete="off">
+    <header class="sheet-header">
+        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
+        <div class="header-fields">
+            <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
+            <h3 style="text-align: left;">I would risk everything for:</h3>
+            <h2 class="charname"><input name="data.reason" type="text" value="{{data.reason}}" /></h2>
+        </div>
+    </header>
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="Traits">Traits</a>
+        <a class="item" data-tab="Misfortunes">Misfortunes</a>
+        <a class="item" data-tab="Lessons">Lessons</a>
+        <a class="item" data-tab="Resources">Resources</a>
+        <a class="item" data-tab="Notes">Notes</a>
+    </nav>
+
+    <section class="sheet-body">
+        <div class="tab charact" data-group="primary" data-tab="Traits">
+            <div class="hexgrid grid grid-5col flex-group-center">
+                <div>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability11.name" value="{{data.ability11.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability11.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability11.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability10.name" value="{{data.ability10.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability10.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability10.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability9.name" value="{{data.ability9.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability9.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability9.reinforced}}>
+                        </figure>
+                    </article>
+
+                </div>
+                <div style="padding-left: 1px; padding-right: 1px;">
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability12.name" value="{{data.ability12.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability12.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability12.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Quality</h3>
+                            <input type="text" name="data.quality6.name" value="{{data.quality6.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.quality6.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.quality6.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Quality</h3>
+                            <input type="text" name="data.quality5.name" value="{{data.quality5.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.quality5.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.quality5.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability8.name" value="{{data.ability8.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability8.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability8.reinforced}}>
+                        </figure>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability1.name" value="{{data.ability1.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability1.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability1.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Quality</h3>
+                            <input type="text" name="data.quality1.name" value="{{data.quality1.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.quality1.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.quality1.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Archetype</h3>
+                            <input type="text" name="data.archetype.name" value="{{data.archetype.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.archetype.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.archetype.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Quality</h3>
+                            <input type="text" name="data.quality4.name" value="{{data.quality4.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.quality4.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.quality4.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability7.name" value="{{data.ability7.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability7.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability7.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                </div>
+                <div>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability2.name" value="{{data.ability2.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability2.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability2.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Quality</h3>
+                            <input type="text" name="data.quality2.name" value="{{data.quality2.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.quality2.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.quality2.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Quality</h3>
+                            <input type="text" name="data.quality3.name" value="{{data.quality3.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.quality3.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.quality3.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability6.name" value="{{data.ability6.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability6.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability6.reinforced}}>
+                        </figure>
+                    </article>
+
+                </div>
+                <div>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability3.name" value="{{data.ability3.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability3.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability3.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability4.name" value="{{data.ability4.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability4.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability4.reinforced}}>
+                        </figure>
+                    </article>
+                    <br>
+                    <article>
+                        <figure>
+                            <h3 style="text-align: center;">Ability</h3>
+                            <input type="text" name="data.ability5.name" value="{{data.ability5.name}}"
+                                style="width: 150%; margin-left: -18px; margin-right: auto;">
+                            <input type="checkbox" name="data.ability5.reinforced"
+                                style="margin-left: auto; margin-right: auto;" {{checked data.ability5.reinforced}}>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+            <div class='complications'>
+                <h2 style='text-align:center;'>Status</h2>
+            </div>
+            <div class="grid grid-5col flex-group-center">
+                <div class="empty"></div>
+                <div class="col1">
+                    <article>
+                        <figure>
+                            <h3 class="align-center;  margin-left: -8px;">Confusion</h3>
+                            <p class="align-center" style='margin-top: -12px; margin-left: -16px;'>In the next test add
+                                &#9938;
+                                instead of &#9898; to the
+                                bag</p>
+                            <input type="checkbox" name="data.confusion" style="margin-left: auto; margin-right: auto;"
+                                {{checked data.confusion}}>
+                        </figure>
+                    </article>
+                </div>
+                <div class="empty"></div>
+                <div class="col2">
+                    <article>
+                        <figure>
+                            <h3 class="align-center">Adrenaline</h3>
+                            <p class="align-center" style='margin-top: -12px; margin-left: -16px;'>In the next test you
+                                must
+                                draw at least 4 &#9938;</p>
+                            <input type="checkbox" name="data.adrenaline" style="margin-left: auto; margin-right: auto;"
+                                {{checked data.adrenaline}}>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="tab charact" data-group="primary" data-tab="Misfortunes">
+            <div class="nte items-list">
+                <div class="header " style="text-align: right;">
+                    <a class="item-create" data-type="misfortune" style=" font-weight: bold;">+Add</a>
+                </div>
+
+                {{#each misfortunes as |misfortune index|}}
+
+                <li class="item flexrow" data-item-id="{{misfortune._id}}">
+                    <div class="item-image"><img src="{{misfortune.img}}" title="{{misfortune.name}}" width="24"
+                            height="24" />
+                    </div>
+                    <h4 class="item-name" style="font-weight: bold;">{{misfortune.name}}</h4>
+                    <div class="item-controls">
+                        <a class="item-control item-edit" title="Edit Item"><i class="fas fa-edit"></i></a>
+                        <a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+                    </div>
+                </li>
+                {{/each}}
+            </div>
+        </div>
+        <div class="tab charact" data-group="primary" data-tab="Lessons">
+            <div class="nte items-list">
+                <div class="header " style="text-align: right;">
+                    <a class="item-create" data-type="lesson" style=" font-weight: bold;">+Add</a>
+                </div>
+
+                {{#each lessons as |lesson index|}}
+
+                <li class="item flexrow" data-item-id="{{lesson._id}}">
+                    <div class="item-image"><img src="{{lesson.img}}" title="{{lesson.name}}" width="24" height="24" />
+                    </div>
+                    <h4 class="item-name" style="font-weight: bold;">{{lesson.name}}</h4>
+                    <div class="item-controls">
+                        <a class="item-control item-edit" title="Edit Item"><i class="fas fa-edit"></i></a>
+                        <a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+                    </div>
+                </li>
+                {{/each}}
+            </div>
+        </div>
+        <div class="tab charact" data-group="primary" data-tab="Resources">
+            <div class="nte items-list">
+                <div class="header " style="text-align: right;">
+                    <a class="item-create" data-type="resource" style=" font-weight: bold;">+Add</a>
+                </div>
+
+                {{#each resources as |resource index|}}
+
+                <li class="item flexrow" data-item-id="{{resource._id}}">
+                    <div class="item-image"><img src="{{resource.img}}" title="{{resource.name}}" width="24"
+                            height="24" />
+                    </div>
+                    <h4 class="item-name" style="font-weight: bold;">{{resource.name}}</h4>
+                    <div class="item-controls">
+                        <a class="item-control item-edit" title="Edit Item"><i class="fas fa-edit"></i></a>
+                        <a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+                    </div>
+                </li>
+                {{/each}}
+            </div>
+        </div>
+        <div class="tab charact" data-group="primary" data-tab="Notes">      
+                {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}
+        </div>
+    </section>
+
+</form>

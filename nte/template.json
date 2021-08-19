@@ -1,0 +1,135 @@
+{
+  "Actor": {
+    "types": ["character","challenges"],
+    "templates": {
+      "drama":{
+        "name" : "",
+        "description": "",
+        "traits": [],
+        "resources": []
+        }
+    },
+    "character": {
+      "templates" : ["drama"],
+      "reason": "",
+      "archetype": {
+        "name": "",
+        "reinforced": false
+      },
+      "quality1": {
+        "name": "",
+        "reinforced": false
+      },
+      "quality2": {
+        "name": "",
+        "reinforced": false
+      },
+      "quality3": {
+        "name": "",
+        "reinforced": false
+      },
+      "quality4": {
+        "name": "",
+        "reinforced": false
+      },
+      "quality5": {
+        "name": "",
+        "reinforced": false
+      },
+      "quality6": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability1": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability2": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability3": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability4": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability5": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability6": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability7": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability8": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability9": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability10": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability11": {
+        "name": "",
+        "reinforced": false
+      },
+      "ability12": {
+        "name": "",
+        "reinforced": false
+      },
+      "misfortunes": [],
+      "adrenaline": false,
+      "confusion": false,
+      "bag": []
+    },
+    "challenges": {
+      "info" : "",
+      "example_tests": [],
+      "example_misfortunes": [],
+      "example_complications": []
+
+      }
+  },  
+  
+  "Item": {
+    "types": [ "misfortune", "lesson", "test", "complication", "resource"],
+    "templates": {},
+    "misfortune": {
+      "misType":"",
+      "tokens":0
+    },
+
+
+    "lesson": {
+      "lessonType": "",
+      "description" : ""
+    },
+
+    "test" : {
+  
+      "description": "",
+      "difficulty": 0,
+      "danger": 0
+    },
+
+    "complication":{ 
+      "description": ""
+    
+    },
+    "resource":{
+      "rarity": "",
+      "description" : ""
+    }
+   }
+}
