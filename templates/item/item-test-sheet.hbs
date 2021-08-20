@@ -1,0 +1,20 @@
+<form class="{{cssClass}} {{item.type}} flexcol" autocomplete="off">
+    <header class="sheet-header">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" height="100" width="100" />
+        <div class="header-fields">
+            <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Name" /></h1>
+        </div>
+    </header>
+  
+    <div class="flex-group-center">
+    <label for = "difficulty">Difficulty</label>
+    <input type = "number" id = "difficulty"name='data.difficulty' value='{{data.difficulty}}' style ="max-width: 10%;"><br>
+    <label for = "danger">Danger</label>
+    <input type = "number" id = "danger" name='data.danger' value='{{data.danger}}' style ="max-width: 10%;"><br>
+    
+   
+    </div>
+    Description:
+    <textarea name='data.description'>{{data.description}}</textarea> <br>
+
+</form>
