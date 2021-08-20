@@ -29,5 +29,5 @@
   "compatibleCoreVersion": "0.8.8",
   "url": "https://github.com/Tanaka84/NTE-foundry/",
   "manifest": "https://raw.githubusercontent.com/Tanaka84/NTE-foundry/master/system.json",
-  "download": "https://github.com/Tanaka84/NTE-foundry/blob/master/nte/NTE.zip?raw=true"
+  "download": "https://github.com/Tanaka84/NTE-foundry/blob/master/NTE.zip?raw=true"
 }
